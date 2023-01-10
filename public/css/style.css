@@ -1,0 +1,262 @@
+*{
+    font-family: "Inter";
+}
+
+body{
+    background-color: #0B0B0B;
+    color: #fff;
+}
+
+@media screen  and (min-width: 992px){
+    .container-fluid {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.t-gray{
+    color: #A7A7A7;
+}
+
+/* Navbar */
+nav{
+    padding-top: 35px !important;
+    color: #fff !important;
+}
+
+.bg-dark{
+    background-color: transparent !important;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    border-right: 1px solid #2C2B2B;
+    padding-right: 40px;
+    margin-right: 32px;
+}
+
+nav ul li{
+    margin-right: 42px;
+}
+
+nav ul li a{
+    color: #fff !important;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+nav li a.active{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #00BAFF !important;
+}
+
+a.btn-outline-light{
+    border-radius: 50px;
+    padding: 17px 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+nav div.d-flex img{
+    width: 24px;
+    height: 24px;
+}
+
+
+/* Hero */
+.hero{
+    margin-top: 50px;
+}
+
+.hero .title h1{
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 80px;
+}
+
+.hero .title p{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.hero .btn-primary{
+    background-color: #4D17E2;
+    color: #fff;
+    border-radius: 50px;
+    padding: 17px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    border-color: #4D17E2;
+    margin-right: 18px;
+    box-shadow: 0 6px 10px 0 rgba(77, 23, 226, 0.6), 0 6px 25px 0 rgba(77, 23, 226, 0.6);
+}
+
+.hero .rating{
+    margin-top: 50px;
+}
+
+.hero .rating img{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.hero .rating .desc{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.hero .img-overview{
+    padding: 36px 100px 50px;
+}
+
+.client{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.client img{
+    padding-right: 60px;
+}
+
+.client p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+}
+
+/* features */
+.features .titles h2{
+    margin-top: 100px !important;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 55px;
+}
+
+.features .titles p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.features .body .d-flex {
+    padding: 30px;
+    color: #0B0B0B;
+    width: 530px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.features .body .d-flex{
+    margin-bottom: 28px;
+}
+
+.features .body .d-flex .title{
+    margin-left: 30px;
+}
+
+.features .body .d-flex .title h5{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.features .body .d-flex .title p{
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.features .body .d-flex.target{
+    margin-left: 40px;
+}
+
+.features .body .d-flex.gift{
+    margin-left: 100px;
+}
+
+/* Analytics */
+.analytics{
+    margin-top: 72px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 38px;
+    padding: 50px;
+    color: #0B0B0B;
+}
+
+.analytics .row h6{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.analytics .row p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+/* testimoni */
+
+.testimoni{
+    margin-bottom: 150px;
+}
+
+.testimoni .picture{
+    padding: 50px 68px 50px 50px;
+    position: relative;
+    width: fit-content;
+}
+
+.testimoni .icn-play{
+    position: absolute;
+    right: 50px;
+    z-index: 5;
+    bottom: 50px;
+}
+
+.testimoni .testi{
+    margin-top: 80px;
+}
+
+.testimoni .testi h5{
+    margin: 30px 0px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 55px;
+}
+
+.testimoni .testi h5 span{
+    color: #00BAFF;
+}
+
+.testimoni .testi .name h6{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.testimoni .testi .name p{
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
