@@ -54,6 +54,12 @@ nav ul li a{
     line-height: 22px;
 }
 
+nav .navbar span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
 nav li a.active{
     font-weight: 600;
     font-size: 18px;
@@ -67,6 +73,10 @@ a.btn-outline-light{
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+}
+
+a.btn-outline-light:hover{
+    color: #0B0B0B  !important;
 }
 
 nav div.d-flex img{
