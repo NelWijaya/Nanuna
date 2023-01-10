@@ -2,6 +2,11 @@
     font-family: "Inter";
 }
 
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 body{
     background-color: #0B0B0B;
     color: #fff;
